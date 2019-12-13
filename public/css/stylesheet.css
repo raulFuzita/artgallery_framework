@@ -1,0 +1,71 @@
+
+.panel {
+    border: 1px solid #000;
+    width: 25vh;
+    padding: 20px;
+}
+
+.field {
+    display: block;
+    width: 100%;
+    margin: 5px 2px;
+}
+
+.searchBox {
+    font-size: 1.1em;
+    border: 1px solid rgb(0, 183, 255);
+    border-radius: 5px;
+    margin: 7px 1px;
+    padding: 7px;
+}
+
+.btn-logout {
+    background-color: rgb(252, 98, 98);
+    color: #EEE;
+    text-decoration: none;
+    border: none;
+    margin: 2px;
+    padding: 6px;
+}
+
+.btn-edit {
+    background-color: rgb(98, 98, 252);
+    color: #EEE;
+    text-decoration: none;
+    border: none;
+    margin: 2px;
+    padding: 6px;
+}
+
+.btn-view {
+    background-color: rgb(28, 201, 71);
+    color: #EEE;
+    text-decoration: none;
+    border: none;
+    margin: 2px;
+    padding: 6px;
+}
+
+table {
+    text-align: center;
+}
+
+table.user-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.user-list th {
+    background-color: rgb(112, 172, 252);
+    color: #EEE;
+}
+
+table.user-list th, td {
+    padding: 10px 12px;
+}
+
+table.user-list tr:hover {
+    opacity: 0.7;
+}
+
+table.user-list tr:nth-child(even){background-color: rgb(185, 215, 255);}
